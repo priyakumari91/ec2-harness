@@ -27,7 +27,7 @@ metadata:
   namespace: harness-delegate-ng
 type: Opaque
 data:
-  DELEGATE_TOKEN: "MzQ4NDUyYjc3MzlhM2Q5ODUwOGFlZDkyMGQxOTBiM2I="
+  DELEGATE_TOKEN: "YTI0MGQyMWQ1NTYyOWVmNWI5YzYxMzM1M2U4MzM5YzU="
 
 ---
 
@@ -96,7 +96,7 @@ spec:
         - name: JAVA_OPTS
           value: "-Xms64M"
         - name: ACCOUNT_ID
-          value: LZyeo82AR5KUT0J6P2mtZg
+          value: QQd2ZSZ_Qa6ArFC2ldkXXw
         - name: MANAGER_HOST_AND_PORT
           value: https://app.harness.io/gratis
         - name: DEPLOY_MODE
@@ -188,7 +188,7 @@ metadata:
   namespace: harness-delegate-ng
 type: Opaque
 data:
-  UPGRADER_TOKEN: "MzQ4NDUyYjc3MzlhM2Q5ODUwOGFlZDkyMGQxOTBiM2I="
+  UPGRADER_TOKEN: "YTI0MGQyMWQ1NTYyOWVmNWI5YzYxMzM1M2U4MzM5YzU="
 
 ---
 
@@ -205,7 +205,7 @@ data:
     namespace: harness-delegate-ng
     containerName: delegate
     delegateConfig:
-      accountId: LZyeo82AR5KUT0J6P2mtZg
+      accountId: QQd2ZSZ_Qa6ArFC2ldkXXw
       managerHost: https://app.harness.io/gratis
 
 ---
