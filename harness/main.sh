@@ -1,8 +1,8 @@
 #!/bin/bash/
 #Installing the packages
 sudo snap install docker 
-sudo snap install terraform
-sudo snap install helm
+sudo snap install terraform --classic
+sudo snap install helm --classic
 
 chmod +x helm.sh k8s.yaml terra.tf docker_delegate.sh
 
