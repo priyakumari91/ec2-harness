@@ -3,7 +3,6 @@
 
 
 helm repo add harness-delegate https://app.harness.io/storage/harness-download/delegate-helm-chart/
-
 helm repo update harness-delegate
 
 #Now we are ready to install the delegate
