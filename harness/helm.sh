@@ -1,3 +1,12 @@
+#!/bin/bash
+#Add Harness helm chart repo to your local helm registry
+
+
+helm repo add harness-delegate https://app.harness.io/storage/harness-download/delegate-helm-chart/
+
+helm repo update harness-delegate
+
+#Now we are ready to install the delegate
 helm upgrade -i helm-delegate --namespace harness-delegate-ng --create-namespace \
   harness-delegate/harness-delegate-ng \
   --set delegateName=helm-delegate \
