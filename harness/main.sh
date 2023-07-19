@@ -1,7 +1,13 @@
 #!/bin/bash/
-sh helm.sh
+#Installing the packages
+sudo snap install docker 
+sudo snap install terraform
+sudo snap install helm
 
-kubectl apply -f k8s.yaml
+chmod +x helm.sh k8s.yaml terra.tf docker_delegate.sh
 
-terraform init
-terraform apply --auto-approve
+sudo sh helm.sh
+sudo kubectl apply -f k8s.yaml
+sudo terraform init
+sudo terraform apply --auto-approve
+sudo sh docker_delegate.sh
